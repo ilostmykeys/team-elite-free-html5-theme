@@ -1,0 +1,30 @@
+# humanstxt.org/
+
+
+# Designed and developed by @ilostmykeyss
+# You can find me here :) https://twitter.com/ilostmykeyss
+
+# Thanks pixabay.com for the awesome image collection !
+# https://pixabay.com/
+
+# Thanks Mats-Peter Forss for his amazing logos !
+# You can find him here https://www.behance.net/bellewille
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+# html5boilerplate
+# https://html5boilerplate.com/
+
+# modernizr
+# https://modernizr.com/
+
+# normalize
+# https://necolas.github.io/normalize.css/
+
+# jQuery
+# https://jquery.com/
+
+# lightbox
+# http://lokeshdhakar.com/projects/lightbox2/
+	

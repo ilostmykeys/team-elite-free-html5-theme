@@ -1,0 +1,625 @@
+
+/* RESETS */
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+img {
+	width: 100%;
+}
+
+/* BASIC LAYOUT */
+
+#page-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* SUPERPOWERS */
+
+.gentle-underline {
+	border-bottom: 1px dotted #000;
+    border-bottom: 1px dotted rgba(0,0,0,.3);
+}
+.header-big {
+	width: 100%;
+	display: block;
+    margin: 30px 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.red {
+	color: red;
+}
+.red a:link,
+.red a:visited {
+	color: red;
+	text-decoration: none;
+}
+
+.backTop {
+	display: none;
+	position: fixed;
+	padding: 5px;
+	bottom: 3px;
+	right: 3px;
+	max-width: 75px;
+	max-height: 75px;
+	cursor: pointer;
+	z-index: 99;
+}
+
+/* / Superpowers End */
+
+#page-container.index-page {
+	width: 100%;
+	text-align: center;
+}
+
+/* HEADER */
+
+#main-header {
+	position: relative;
+	width: 100%;
+	padding: 15px 0;
+	background-color: #000;
+
+	/* HEADER ELEMENTS FONT SIZE */
+	font-size: 1.2em;
+
+}
+
+/* HEADER - INDEX PARALLAX */
+
+#main-header.index-page {
+	position: absolute;
+	background-color: #000;
+	background-color: rgba(0,0,0,.8);
+}
+
+/* HEADER - LOGO & MENU LINKS STYLING */
+
+#main-header a:link,
+#main-header a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* MAIN LOGO */
+
+#logo-container,
+#logo-container h2 {
+	display: inline-block;
+}
+#logo-container {
+	padding: 0 20px;
+}
+
+/* MAIN NAVIGATION */
+
+#main-nav {
+	margin-left: 20px;
+}
+#main-nav,
+#main-nav li {
+	display: inline-block;
+	padding: 0 5px;
+}
+#main-nav li {
+	list-style: none;
+}
+
+/* MAIN NAVIGATION - LOGO / NAVIGATION POSITIONING */
+
+/* MAIN NAVIGATION - LOGO STYLING */
+
+/* MAIN NAVIGATION - NAVIGATION STYLING */
+
+/* MAIN NAVIGATION TOGGLER */
+
+#toggle-nav {
+	display: none;
+    cursor: pointer;
+    padding: 6px 20px;
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    top: 13px;
+    right: 20px;
+    background-color: #000;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+/* INDEX PARALLAX */
+
+#index-parallax {
+	width: 100%;
+}
+.index-parallax-img {
+    height: 550px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+/* INDEX ABOUT */
+
+#index-about {
+	width: 70%;
+	margin: 40px auto;
+}
+
+/* INDEX ABOUT - HEADER */
+
+#index-about header {
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+}
+
+#index-about p {
+	letter-spacing: 1.2px;
+	margin: 30px 0;
+	word-spacing: 2.2px;
+	font-size: 1.2em;
+}
+#index-about p:last-of-type:after {
+    display: block;
+    height: 1px;
+    width: 60%;
+    margin: 35px auto 0 auto;
+    background-color: #000;
+    content: '';
+}
+
+/* INDEX SERVICES */
+
+#index-services-container {
+	display: table;
+}
+#index-services-container figure {
+	display: table-cell;
+	position: relative;
+    width: 33%;
+    padding: 10px;
+}
+#index-services figcaption {
+	margin: 30px 0;
+}
+
+/* INDEX SERVICES - IMAGE */
+
+#index-services figure img {
+	width: 100%;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+/* INDEX SERVICES - HEADER */
+
+#index-services figcaption header {
+	margin: 10px 0;
+}
+
+/* INDEX SERVICES - MORE BUTTON */
+
+#index-services .service-more a:link,
+#index-services .service-more a:visited {
+	font-size: 1.2em;
+    color: #CF0000;
+    text-decoration: none;
+}
+#index-services .service-more a:after{
+    display: block;
+    height: 1px;
+    width: 85px;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    content: '';
+}
+
+/* INDEX PARTNERS */
+
+#index-partners {
+	margin: 30px 0;
+}
+#index-partners li {
+	display: inline-block;
+	list-style: none;
+	width: 19%;
+}
+#index-partners img {
+	width: 80%;
+}
+
+/* FOOTER */
+
+footer {
+    display: -ms-flexbox;
+    display: flex;
+    height: 150px;
+    text-align: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+	margin-top: auto;
+}
+footer p {
+    color: white;
+}
+footer p:before,
+footer p:after {
+    content: '';
+    display: inline-block;
+    width: 75px;
+    height: 1px;
+    margin: 5px 10px;
+    background-color: white;
+}
+
+/* =================== */
+/*    SERVICES PAGE    */
+/* =================== */
+
+.service {
+	text-align: center;
+}
+
+/* SERVICE TITLE */
+
+.service header h2 {
+	margin: 30px 0;
+	font-size: 2.4em;
+}
+
+/* SERVICE TEXT */
+
+.service p {
+	margin: 20px auto;
+	font-size: 1.2em;
+	width: 85%;
+}
+
+/* SERVICE IMAGE */
+
+.service-img {
+	margin: 30px 0;
+}
+.service-img img {
+	box-shadow: 0 0 4px #B5B5B5;
+	box-shadow: 0 0 4px rgba(0,0,0,.2);
+}
+
+/* =================== */
+/*    GALLERY  PAGE    */
+/* =================== */
+
+.gallery-section:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* GALLERY PAGE - SECTION BORDER BOTTOM */
+
+.gallery-section:before {
+	content: '';
+	display: block;
+	height: 1px;
+	width: 60%;
+	margin: 35px auto 0 auto;
+	background-color: transparent;
+	border-top: 1px dotted rgba(0,0,0,.3);
+}
+.gallery-section:first-of-type:before {
+	display: none;
+}
+
+/* GALLERY PAGE - SECTION TITLE */
+
+.gallery-section>header {
+	margin: 20px 0;
+	text-shadow: 0 0 2px rgba(0,0,0,.3);
+}
+
+/* GALLERY PAGE - IMAGE */
+
+.gallery-section figure {
+	box-sizing: border-box;
+	margin: 0; /* Overwrites margin from 'normalize.min.css' */
+	width: 25%;
+	height: 230px;
+	float: left;
+	list-style: none;
+	background-color: #000;
+}
+.gallery-section figure img {
+	height: 230px;
+	box-shadow: 0 0 7px rgba(0,0,0,.2);
+	transition: all .3s ease-in-out;
+}
+.gallery-section figure img:hover {
+	opacity: 0.4;
+	cursor: pointer;
+}
+.gallery-section figcaption {
+	display: none;
+}
+
+/* =================== */
+/*     ABOUT  PAGE     */
+/* =================== */
+
+#contact-page-container {
+	text-align: center;
+	margin: 20px 0;
+}
+@media(min-width: 1900px) {
+	#contact-page-container {
+		margin-top: 60px;
+	}
+}
+@media(min-width: 1650px) {
+	#contact-page-container {
+		margin-top: 40px;
+	}
+}
+
+#contact-page-container .contact-paragraph p {
+	width: 60%;
+	margin: 0 auto;
+	font-size: 1.2em;
+}
+
+#contact-page-container .contact-paragraph:after {
+	content: '';
+	display: block;
+	height: 1px;
+	width: 30%;
+	margin: 20px auto;
+	background-color: transparent;
+	border-top: 1px dotted #000;
+	border-top: 1px dotted rgba(0,0,0,.3);
+}
+
+#contact-page-image {
+	margin-top: 25px;
+}
+#contact-page-image img{
+	max-width: 180px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+#contact-page-container .contact-info p {
+	margin-top: 4px;
+	font-size: 1.2em;
+}
+#contact-page-container .contact-info a:link,
+#contact-page-container .contact-info a:visited {
+	color: #D60000;
+}
+
+/* =================== */
+/*     ABOUT  PAGE     */
+/* =================== */
+
+#about-text {
+	text-align: center;
+	font-size: 1.2em;
+	max-width: 75%;
+	margin: 40px auto;
+}
+
+#about-text h1,
+#about-text h2 {
+	font-size: 1.5em;
+	margin: 20px 0;
+}
+#about-text p {
+	margin: 12px 0;
+}
+
+/* ========================================= */
+/*               MEDIA QUERIES               */
+/* ========================================= */
+
+@media(max-width: 1230px) {
+
+	/* GALLERY PAGE */
+
+    .gallery-section li {
+        width: 33%;
+    }
+
+}
+
+@media(max-width: 880px) {
+
+	#index-about {
+		width: 80%;
+	}
+
+	#contact-page-container .contact-paragraph p {
+		width: 80%;
+	}
+
+	#about-text {
+		max-width: 85%;
+	}
+
+}
+
+@media(max-width: 835px) {
+
+	/* GALLERY PAGE */
+
+	.gallery-section figure {
+		width: 50%;
+	}
+
+}
+
+@media(max-width: 780px) {
+
+	#index-services-container {
+		display: block;
+	}
+
+	#index-services-container figure {
+		width: 85%;
+		margin: 0 auto 15px auto;
+		display: block;
+	}
+	#index-services-container figcaption {
+		margin-bottom: 10px;
+	}
+
+	#index-about {
+		text-align: left;
+		width: 95%;
+	}
+
+	.service p {
+		text-align: left;
+		width: 95%;
+	}
+
+	#contact-page-container .contact-paragraph p {
+		width: 95%;
+	}
+
+	#about-text {
+		max-width: 95%;
+	}
+
+}
+
+/* NAVIGATION BREAK POINT */
+
+@media(min-width: 670px) {
+	/* Prevent navigation from going dispay: block */
+	#logo-container,
+	#main-nav,
+	#main-nav ul,
+	#main-nav li {
+		display: inline-block!important;
+	}
+}
+@media(max-width: 670px) {
+
+	/* MAIN NAVIGATION */
+
+	.index-page #main-nav {
+		background-color: #000;
+		background-color: rgba(0,0,0,.8);
+	}
+	#main-nav {
+		box-sizing: border-box;
+		display: none;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		background-color: #000;
+		background-color: rgba(0,0,0,.9);
+		margin: 14.5px 0;
+	}
+	#main-nav li {
+		display: block;
+		font-size: 1.2em;
+		padding: 9px;
+	}
+
+	#toggle-nav {
+		display: inline-block;
+	}
+
+	#about-text {
+		text-align: left;
+		max-width: 95%;
+	}
+	
+}
+
+@media(max-width: 550px) {
+
+	.gallery-section figure {
+		width: 100%;
+	}
+
+	#index-about {
+		text-align: left;
+		width: 95%;
+	}
+
+	#index-services-container figure {
+		width: 90%;
+	}
+
+	.service p {
+		text-align: left;
+		width: 95%;
+	}
+	#contact-page-container .contact-paragraph {
+		width: 95%;
+		text-align: left;
+		margin: 0 auto;
+	}
+	#contact-page-container .contact-paragraph p {
+		margin: 0;
+	}
+
+}
+
+@media(max-width: 465px) {
+
+	/* FOOTER */
+
+	footer p:after,
+	footer p:before {
+		display: none;
+	}
+
+}
+
+@media(max-width: 450px) {
+
+	#index-partners li {
+		width: 49%;
+		margin: 20px auto;
+	}
+
+}
+
+@media(max-width: 350px) {
+
+	#index-partners li {
+		width: 80%;
+		margin: 40px auto;
+	}
+
+}
